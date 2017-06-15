@@ -20,6 +20,7 @@ are occasionally useful for debugging::
 
     {{ some_variable | to_json }}
     {{ some_variable | to_yaml }}
+    {{ some_variable | to_toml }}
 
 For human readable output, you can use::
 
@@ -35,6 +36,7 @@ Alternatively, you may be reading in some already formatted data::
 
     {{ some_variable | from_json }}
     {{ some_variable | from_yaml }}
+    {{ some_variable | from_toml }}
 
 for example::
 
